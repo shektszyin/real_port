@@ -72,7 +72,8 @@ const App: React.FC = () => {
   };
 
   return (
-    <div className="min-h-screen bg-sage-50 dark:bg-black text-sage-900 dark:text-sage-50 transition-colors duration-500 overflow-x-hidden selection:bg-sage-400 selection:text-white flex flex-col font-sans">
+       <div className="min-h-screen bg-sage-50 dark:bg-sage-950 transition-colors duration-500 selection:bg-sage-400 selection:text-white flex flex-col">
+
       <Navbar 
         isDarkMode={isDarkMode} 
         toggleDarkMode={toggleDarkMode} 

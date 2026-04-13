@@ -194,7 +194,6 @@ const App: React.FC = () => {
               
               <div className="pt-4">
                 <a 
-                  
                   href="/myresume.pdf" 
                   target="_blank" 
                   rel="noopener noreferrer"

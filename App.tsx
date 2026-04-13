@@ -144,17 +144,14 @@ const App: React.FC = () => {
                 </div>
                 
                 <p className="text-lg md:text-xl text-sage-600 dark:text-sage-400/70 leading-relaxed font-medium max-w-lg">
-                  {PERSONAL_INFO.name.split(' ')[0]} crafts focused digital experiences that captivate audiences and drive growth. Combining bold design with smart strategy, we elevate your brand to win and convert—seamlessly.
                   {PERSONAL_INFO.aboutShort[language]}
                 </p>
 
                 <div className="flex flex-wrap items-center gap-4 pt-4">
                   <button 
-                    onClick={(e) => scrollToSection(e, '#about')}
                     onClick={(e) => scrollToSection(e, '#bio')}
                     className="px-10 py-4 bg-sage-200 dark:bg-sage-100/90 text-sage-900 dark:text-black font-bold rounded-xl transition-all hover:scale-105 text-[13px]"
                   >
-                    About Us
                     Read my bio
                   </button>
                   <button 
@@ -194,6 +191,20 @@ const App: React.FC = () => {
               <p className="text-xl md:text-2xl text-sage-600 dark:text-sage-400/80 leading-relaxed font-medium">
                 {PERSONAL_INFO.bio[language]}
               </p>
+              
+              <div className="pt-4">
+                <a 
+                  href="/resume.pdf" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center justify-center gap-3 px-10 py-4 bg-sage-900 dark:bg-white text-sage-50 dark:text-black font-black rounded-full hover:scale-105 transition-all text-xs uppercase tracking-widest"
+                >
+                  <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                  </svg>
+                  {t.viewResume}
+                </a>
+              </div>
             </div>
           </section>
 

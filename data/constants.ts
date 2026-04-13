@@ -4,33 +4,21 @@ import { Project, Skill } from '../types/index';
 export const PERSONAL_INFO = {
   name: "Tommy Shek",
   role: {
-    en: "Web Designer & Developer",
-    zh: "网页设计师 & 开发工程师",
-    zhTW: "網頁設計師 & 開發工程師"
     en: "Web Designer / Developer",
     zh: "网页设计师 / 开发工程师",
     zhTW: "網頁設計師 / 開發工程師"
   },
   intro: {
-    en: "I build websites that function as clear tools for communication.",
-    zh: "我构建作为清晰沟通工具的网站。",
-    zhTW: "我構建作為清晰溝通工具的網站。"
     en: "I design and build clean, functional, and user-friendly websites.",
     zh: "我设计并开发整洁、实用且用户友好的网站。",
     zhTW: "我設計並開發整潔、實用且用戶友好的網站。"
   },
   aboutShort: {
-    en: "I build websites that help people understand who you are and what you sell. My focus is on making your message clear, precise, and visually elegant.",
-    zh: "我构建网站来帮助人们了解您是谁以及您在销售什么。我的重点是让您的信息清晰、准确且视觉雅致。",
-    zhTW: "我構建網站來幫助人們了解您是誰以及您在銷售什麼。我的重點是讓您的信息清晰、準確且視覺雅致。"
     en: "I am a web designer and developer passionate about crafting digital experiences that are both beautiful and highly functional. I help turn ideas into clear, engaging websites that truly connect with users.",
     zh: "我是一名网页设计师和开发人员，热衷于打造兼具美感和高功能性的数字体验。我致力于将创意转化为清晰、吸引人的网站，与用户产生真正的共鸣。",
     zhTW: "我是一名網頁設計師和開發人員，熱衷於打造兼具美感和高功能性的數字體驗。我致力於將創意轉化為清晰、吸引人的網站，與用戶產生真正的共鳴。"
   },
   bio: {
-    en: "I am a passionate web designer and developer with a focus on creating intuitive, user-centric digital experiences. With a background in both design and coding, I bridge the gap between aesthetics and functionality to bring ideas to life.",
-    zh: "我是一名充满热情的网页设计师和开发人员，专注于创建直观、以用户为中心的数字体验。凭借设计和编程的双重背景，我将美学与功能性完美结合，让创意变为现实。",
-    zhTW: "我是一名充滿熱情的網頁設計師和開發人員，專注於創建直觀、以用戶為中心的數字體驗。憑藉設計和編程的雙重背景，我將美學與功能性完美結合，讓創意變為現實。"
     en: "Hi, I'm Tommy. As a versatile web designer and developer, I bridge the gap between visual aesthetics and technical execution. I specialize in building responsive, accessible, and user-centric websites from the ground up. When I'm not pushing pixels or writing code, I love exploring new design trends and web technologies.",
     zh: "你好，我是 Tommy。作为一名全面的网页设计师和开发人员，我将视觉美学与技术执行完美结合。我专注于从头开始构建响应式、无障碍且以用户为中心的网站。在设计和编写代码之外，我喜欢不断探索新的设计趋势和网络技术。",
     zhTW: "你好，我是 Tommy。作為一名全面的網頁設計師和開發人員，我將視覺美學與技術執行完美結合。我專注於從頭開始構建響應式、無障礙且以用戶為中心的網站。在設計和編寫代碼之外，我喜歡不斷探索新的設計趨勢和網絡技術。"
@@ -74,7 +62,8 @@ export const UI_TRANSLATIONS = {
     scope: "Pages / Scope",
     myRole: "My Role",
     highlights: "Key Highlights",
-    future: "Future Improvements"
+    future: "Future Improvements",
+    viewResume: "View Resume"
   },
   zh: {
     home: "首页",
@@ -109,7 +98,8 @@ export const UI_TRANSLATIONS = {
     scope: "范围",
     myRole: "我的角色",
     highlights: "设计亮点",
-    future: "未来规划"
+    future: "未来规划",
+    viewResume: "查看简历"
   },
   zhTW: {
     home: "首頁",
@@ -144,7 +134,8 @@ export const UI_TRANSLATIONS = {
     scope: "範圍",
     myRole: "我的角色",
     highlights: "設計亮點",
-    future: "未來規劃"
+    future: "未來規劃",
+    viewResume: "查看簡歷"
   }
 };
 

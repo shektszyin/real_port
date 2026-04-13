@@ -145,14 +145,17 @@ const App: React.FC = () => {
                 
                 <p className="text-lg md:text-xl text-sage-600 dark:text-sage-400/70 leading-relaxed font-medium max-w-lg">
                   {PERSONAL_INFO.name.split(' ')[0]} crafts focused digital experiences that captivate audiences and drive growth. Combining bold design with smart strategy, we elevate your brand to win and convert—seamlessly.
+                  {PERSONAL_INFO.aboutShort[language]}
                 </p>
 
                 <div className="flex flex-wrap items-center gap-4 pt-4">
                   <button 
                     onClick={(e) => scrollToSection(e, '#about')}
+                    onClick={(e) => scrollToSection(e, '#bio')}
                     className="px-10 py-4 bg-sage-200 dark:bg-sage-100/90 text-sage-900 dark:text-black font-bold rounded-xl transition-all hover:scale-105 text-[13px]"
                   >
                     About Us
+                    Read my bio
                   </button>
                   <button 
                     onClick={(e) => scrollToSection(e, '#projects')}

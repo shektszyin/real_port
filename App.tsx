@@ -194,7 +194,8 @@ const App: React.FC = () => {
               
               <div className="pt-4">
                 <a 
-                  href="/resume.pdf" 
+                  
+                  href="/myresume.pdf" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="inline-flex items-center justify-center gap-3 px-10 py-4 bg-sage-900 dark:bg-white text-sage-50 dark:text-black font-black rounded-full hover:scale-105 transition-all text-xs uppercase tracking-widest"
